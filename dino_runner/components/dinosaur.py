@@ -60,6 +60,7 @@ class Dinosaur(Sprite):
         self.dino_rect.x = self.POS_X
         self.dino_rect.y = self.POS_Y_DUCKING
         self.step_index += 1
+   
 
     def jump(self):
         self.image = JUMPING
